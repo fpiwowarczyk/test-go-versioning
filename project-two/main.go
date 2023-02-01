@@ -1,11 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/fpiwowarczyk/test-go/versioning/project-one/printing"
 
 func main() {
-
-}
-
-func ProjectTwoPrinting() {
-	fmt.Println("This is projectTwo")
+	printing.ProjectOnePrint()
 }
